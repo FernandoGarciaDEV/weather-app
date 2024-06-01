@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06283D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2;
+}
+
+.contenedor {
+    width: 400px;
+    height: 500px;
+    background-color: #06283D;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-clima {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.tarjeta-clima .icono-clima {
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+.tarjeta-clima .contenido {
+    color: #06283D;
+}
+
+.tarjeta-clima .titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color:#06283D
+}
+
+.tarjeta-clima .ciudad {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-clima .boton-buscar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.tarjeta-clima .boton-buscar .icono-buscar {
+    width: 25px;
+    height: 25px;
+}
+
+.tarjeta-clima .temperatura {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tarjeta-clima .estado {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-clima .viento,
+.tarjeta-clima .humedad {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
